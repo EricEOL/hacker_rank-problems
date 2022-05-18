@@ -1,0 +1,33 @@
+#Grading Students
+
+A Universidade HackerLand tem a seguinte política de grau dos alunos:
+- Todo estudante recebe um grau de 0 a 100.
+- Qualquer grau menor do que 40 é um grau ruim, ou seja, o aluno não passou.
+
+Sam é um professor da universidade e arredonda o grau dos alunos da seguinte forma:
+- Se a diferença entre o grau e o próximo múltiplo de 5 for menor do que 3, o grau é arredondado para o próximo múltiplo de 5.
+- Se o grau for menor do 38, não há arredondamento e o aluno não passa.
+
+###Exemplo:
+- grau = 84 é arredondado para 85 (85 - 84 é menor do que 3);
+- grau = 29 NÃO é arredondado (grau menor do que 38)
+- grau = 57 NÃO é arredondado (60-57 é maior ou igual a 3)
+
+Dado um valor de grau inicial para cada aluno de Sam, escreva o código que arredonde os graus automaticamente.
+
+###Exemplo de entrada:
+4 - Obs: Esse valor representa que serão os graus de 4 alunos.
+73
+67
+38
+33
+
+###Saída esperada a partir da entrada acima:
+75
+67
+40
+33
+ou seja, um array com a seguinte estrutura [75, 67, 40, 33];
+
+###Retorno:
+O retorno deve ser um array com os valores arredondados da forma correta.
