@@ -6,4 +6,4 @@
 Nesse repositório estarão as resoluções pensadas por mim para problemas propostos na plataforma Hacker Rank.
 
 ### Desafios:
-1. <a href="https://github.com/EricEOL/hacker_rank-problems/tree/main/src/GradingStudents">Grading Students</a>
+1. <a href="https://github.com/EricEOL/hacker_rank-problems/tree/main/src/GradingStudents">Grading Students</a> - Consiste na manupulação dos dados de um array com "notas" de alunos de uma universidade.
