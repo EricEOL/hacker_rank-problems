@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EricEOL/hacker_rank/images/logo.png" />
+</p>
 # Hacker Rank - Resolução dos desafios
 Nesse repositório estarão as resoluções pensadas por mim para problemas propostos na plataforma Hacker Rank.
 
