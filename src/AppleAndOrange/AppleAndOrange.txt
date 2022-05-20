@@ -1,1 +1,22 @@
 Apple and Orange
+
+A casa de Sam tem uma macieira e uma laranjeira que produzem frutas abundantemente.
+Com as informações abaixo, determine o número de maçãs e laranjas que caem na casa de Sam.
+
+Observe a imagem que está nessa pasta e compare com a explicação abaixo:
+
+- A região em vermelho representa a casa do Sam, onde "s" é o ponto de início e "t" é onde ela termina.
+A macieira está a esquerda da casa, e a laranjeira se encontra a direta.
+
+- Assuma que as árvores estão localizadas em pontos únicos, onde a macieira está no ponto "a" e a laranjeita está no ponto "b".
+
+- Quando uma fruta cai das árvores, a distância em que ela está da árvore que caiu é representado por "d",
+Se o valor de "d" for negativo, significa que a fruta caiu a esqueda da árvore, se for positivo significa que caiu do lado direito da árvore.
+
+Dados os valores "d" para "m" maçãs e "n" laranjas, determine quantas maçãs e laranjas cairam na casa de Sam (dentro do espaço entre "s" e "t").
+
+Exemplo:
+A casa de Sam fica entre "s" = 7 e "t" = 10. A macieira está na posição "a" = 4 e a laranjeira na posição "b"=12.
+Há 3 maçãs representadas por "m" e 3 laranjas representadas por "n". As distâncias das maçãs para o ponto "a" são = [2,3,-4] e as distâncias das laranjas para o ponto "b" são = [3, -2, -4].
+Realizando a adição da posição das árvores a cada posição das frutas, temos que as maçãs = [4+2, 4+3, 4+ -4] = [6,7,0], já as laranjas temos [12+3, 12+ -2, 12 + -4] = [15, 10, 8].
+Ou seja, observando esses resultados, temos que 1 maçã se encontra dentro do espaço de 7 - 10 (s - t) e também 2 laranjas.
